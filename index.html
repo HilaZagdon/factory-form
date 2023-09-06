@@ -6,6 +6,63 @@
     <title>Document</title>
   </head>
   <body>
+    <form id="myForm" onsubmit="return validateFactory()">
+      <div id="firstNameDiv">
+        <label for="firstName" id="firstNameLabel">First Name:</label>
+        <input
+          required
+          type="text"
+          placeholder="First name"
+          id="firstName"
+          name="firstName"
+        />
+      </div>
+      <br />
+      <div id="LastNameDiv">
+        <label for="LastName" id="LastNameLabel">Last name:</label>
+        <input
+          required
+          name="LastName"
+          type="text"
+          placeholder="Last name"
+          id="LastName"
+        />
+      </div>
+      <br />
+      <div id="ageDiv">
+        <label for="dateInput" id="dateLabel">Date of birth:</label>
+        <input required name="dateInput" type="date" id="dateInput" />
+      </div>
+      <br />
+      <div id="emailDiv">
+        <label for="emailInput" id="emailLabel">Email:</label>
+        <input
+          required
+          name="emailInput"
+          type="email"
+          placeholder="your email"
+          id="emailInput"
+        />
+      </div>
+      <br />
+      <div id="PhoneNumberDiv">
+        <label for="PhoneNumber" id="PhoneNumberLabel">Phone number:</label>
+        <input
+          required
+          type="tel"
+          placeholder="Phone number"
+          id="PhoneNumber"
+          name="PhoneNumber"
+        />
+      </div>
+      <br />
+      <div id="roleDiv">
+        <label for="role" id="roleLabel">Role:</label>
+        <input required type="text" placeholder="role" id="role" name="role" />
+      </div>
+      <br />
+      <button id="btn">send</button>
+    </form>
     <script src="factory.js"></script>
   </body>
 </html>
