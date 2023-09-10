@@ -16,6 +16,7 @@
           id="firstName"
           name="firstName"
         />
+        <span style="color: red" id="firstNameSpan"></span>
       </div>
       <br />
       <div id="lastNameDiv">
@@ -27,11 +28,13 @@
           placeholder="Last name"
           id="lastName"
         />
+        <span style="color: red" id="lastNameSpan"></span>
       </div>
       <br />
       <div id="ageDiv">
         <label for="dateInput" id="dateLabel">Date of birth:</label>
         <input required name="dateInput" type="date" id="dateInput" />
+        <span style="color: red" id="ageSpan"></span>
       </div>
       <br />
       <div id="emailDiv">
@@ -43,6 +46,7 @@
           placeholder="your email"
           id="emailInput"
         />
+        <span style="color: red" id="emailSpan"></span>
       </div>
       <br />
       <div id="phoneNumberDiv">
@@ -54,11 +58,18 @@
           id="phoneNumber"
           name="phoneNumber"
         />
+        <span style="color: red" id="phoneSpan"></span>
       </div>
       <br />
       <div id="roleDiv">
-        <label for="role" id="roleLabel">Role:</label>
-        <input required type="text" placeholder="role" id="role" name="role" />
+        <label for="roleInput" id="roleInputLabel">Role:</label>
+        <input
+          required
+          type="text"
+          placeholder="role"
+          id="roleInput"
+          name="roleInput"
+        />
       </div>
       <br />
       <button id="btn">send</button>
